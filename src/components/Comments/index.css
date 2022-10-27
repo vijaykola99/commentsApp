@@ -1,0 +1,90 @@
+.app-background {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 0px;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.inputs-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  border: 1px solid #94a3b8;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  outline: none;
+  font-family: 'Roboto';
+}
+.textarea {
+  border: 1px solid #94a3b8;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  outline: none;
+  height: 130px;
+  font-family: 'Roboto';
+}
+hr {
+  width: 100%;
+}
+.add-comment-button {
+  background: #0284c7;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 600;
+  padding: 8px;
+  width: 140px;
+  border-radius: 5px;
+  border: 0px;
+  cursor: pointer;
+}
+.say-paragraph {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #475569;
+}
+.span {
+  background: #0284c7;
+  padding: 8px;
+  color: #ffffff;
+  border-radius: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.comments-item-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+  width: 100%;
+}
+.image {
+  width: 250px;
+  height: 200px;
+  margin-top: 40px;
+}
+@media screen and (max-width: 767px) {
+  .inputs-container {
+    flex-direction: column;
+  }
+  .image {
+    order: 0;
+    width: 200px;
+    margin-top: 10px;
+    align-self: center;
+  }
+  .form {
+    order: 1;
+  }
+}

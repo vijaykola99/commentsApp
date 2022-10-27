@@ -1,0 +1,89 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.comment-item-span {
+  font-size: 15px;
+  margin-left: 10px;
+  color: #7e858e;
+  font-weight: 500;
+}
+
+.horizontal-line {
+  width: 100%;
+}
+.initial {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 1em;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em;
+  text-align: center;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 1em;
+  color: white;
+}
+.initial-name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.like-delete-icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 20px;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.like-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 50px;
+}
+.like {
+  color: #0ea5e9;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+.dis-like {
+  color: #7e858e;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+.name {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 18px;
+}
+.delete-icon {
+  cursor: pointer;
+}
